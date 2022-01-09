@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    max-height: 80px;
+}
+.logo img{
+    width: 33%;
+    margin-left: 35%;
+}
+
+.nav-list{
+  width:70%;
+  display: flex;
+  background-color: #FFFFFF;
+  align-items: center;
+ 
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px ;
+    align-items: center;
+}
+.nav-list li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    padding-left: 50px;
+    
+    font-family: 'Poppins', sans-serif;
+    
+}
+.nav-list li a:hover{
+    text-decoration: none;
+   
+    color:rgb(240, 220, 220);
+    
+}
+.rightnav{
+    width:30%;
+    display: flex;
+    background-color:#FFFFFF;
+    align-items: center;
+    text-align: right;
+}
+.rightnav .right{
+    display: flex;
+    
+   
+}
+#search{
+    padding: 5px;
+    font: 15px;
+    border: 2px solid grey;
+    border-radius: 25px;
+    background: #FBB03B;
+    width:140%;
+}
+
+.rightnav .right li{
+    list-style: none;
+    text-decoration: none;
+}
+#logoright{
+    max-width:40px;
+    padding-left: 120px;
+    
+}
+.parent{
+    display: flex;
+    width: 85%;
+}
+.Rightsec{
+    width:65%;
+    margin-left:-45px ;
+
+}
+.leftsec{
+    width: 35%;
+   
+}
+.Right{
+    background-color:#FFFFFF;
+    margin-left: 145px;
+    margin-top: 40px;
+    margin-right: 30px;
+    display: flex;
+    height: 280px;
+    width: 100%;
+    border-radius: 7px;
+   
+    
+}
+
+
+.imagesover{
+    width:65%;
+}
+
+.circle{
+    margin-left: 40px;
+    margin-top: 35px;
+    width:72%;
+}
+.rightcircle{
+    width:69%;
+    margin-left: -165px;
+    margin-bottom: 5px;
+}
+.rights{
+    margin-top: 25px;
+
+}
+
+.sec{
+    display: flex;
+    margin-top: 2px;
+   
+}
+.buttons{
+    margin-left: 20;
+    align-items: left;
+    margin-right: 30px;
+ 
+}
+.line{
+    width: 570px;
+    height: 1px;
+    background-color: black;
+    margin: 10px 2px;
+}
+.sbtn{
+    padding: 5px;
+    font: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:#FFFFFF;
+    width: 20%;
+    margin-left: 260px;
+}
+.buttons{
+    text-align: left;
+}
+button{
+    padding: 5px;
+    font: 15px;
+    border: 1px solid grey;
+    border-radius: 13px;
+    background-color:#FFFFFF;
+    margin: 2px 1px 5px 5px;
+
+}
+.top{
+    padding: 0px 2px 15px 5px;
+    text-align: left;
+    margin-right: 30px;
+}
+
+.Left{
+    background-color:aqua;
+    width: 100%;
+    height: 200px;
+    margin-right: -20px;
+    margin-top: 40px;
+    margin-left: 185px;
+    border-radius: 7px;
+
+}
+.row{
+    display: flex;
+    margin-left: 650px;
+   
+}
+.row .firstb {
+    margin-left: -601px;
+    margin-top: 40px;
+}
+.row .firstb img{
+    width: 55%;
+}
+.row .text{
+    margin-top: 25px;
+    text-align: left;
+    font-size: 22px;
+    margin-left: -35px;
+    color: white;
+}
+.row .text ul{
+    margin-top: 7px;
+    margin-left: 23px;
+}
+.row .text ul li{
+    padding-top: 4px;
+    font-size: 18px;
+    color: white;
+}
+.inptext{
+    align-items: center;
+    margin-top: 10px;
+    margin-left:  10px;
+    margin-right: -12px;
+    justify-content: center;
+
+}
+.inptext .input h2:hover{
+    text-decoration: none;
+    cursor: pointer;
+   
+    color:grey;
+    
+}
+.inptext .input{
+    padding: 5px;
+    font: 2px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: aqua;
+    color: white;
+    width: 93%;
+
+    
+    
+
+}
+.ridown{
+    background-color:#FFFFFF;
+    margin-top: -30px;
+    margin-left: 145px;
+    width: 100%;
+    border-radius: 7px;
+    padding-top: 3px;
+    padding-bottom: 5px
+}
+.ridown .silogo{
+    display: flex;
+    margin-top: 10px;
+}
+.ridown .silogo img{
+    width: 5%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.ridown .s{
+    display: flex;
+}
+.ridown .s .t{
+    text-align: left;
+    color: grey;
+    margin-left: 14px;
+    margin-top: 20px;
+}
+.ridown .s .line2{
+    width:90%;
+    height:1px;
+    background-color: black;
+    margin: 34px 5px;
+}
+.cont1{
+    display: flex;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 2px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.cont1 .eve1{
+
+}
+.cont1 .eve1 img{
+    width:100%;
+    height:100%;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-radius: 28px;
+}
+.corcon .head{
+    width:95%;
+    margin-left: 10px;
+}
+.corcon .head .hed{
+    display: flex;
+}
+.corcon .head .hed h2{
+    text-align: left;
+    margin-left: 20px;
+}
+.corcon .head .hed .clock img{
+    width: 60%;
+    margin-left: -10px;
+    margin-right: -15px;
+}
+.corcon .head .hed h4{
+    color:white;
+    margin-top: 2px;
+
+}
+
+.corcon .jbtn{
+
+    padding-top: 5px;
+    font: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(0, 153, 255);
+    width: 18%;
+    margin-left: 490px;
+    color: white;
+ 
+
+}
+.btnin{
+    margin-left: 210px;
+    margin-bottom: 10px;
+}
+
+
+.btnin .clck{
+    display: flex;
+    width: 100%;
+    border-radius: 55px;
+    padding: 2px 2px;
+    background-color: rgb(201, 34, 112);
+    
+}
+.corcon .head .evetext {
+    text-align: left;
+    margin-left: 20px;
+
+}
+.leftsec .leftcontainer{
+    background-color:#FFFFFF;
+    margin-top: 30px;
+    margin-left: 183px;
+    width: 100%;
+    border-radius: 7px;
+    padding-bottom: 15px;
+}
+
+.leftcontainer .ledown .lelogo {
+    display: flex;
+    margin-top: 10px;
+
+}
+.leftcontainer .ledown .lelogo img{
+    width:4%;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+.leftcontainer .ledown .lelogo h1{
+    padding-top: 10px;
+}
+.leftsec .leftcontainer .cont2{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.leftsec .leftcontainer .cont2 .img2{
+    padding-bottom: 30px;
+}
+.leftsec .leftcontainer .cont2 .img2 img{
+    width: 180%;
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 100%;
+   
+}
+.leftsec .leftcontainer .cont2 .sidetext{
+    margin-left: 120px;
+    margin-top: 5px;
+   
+}
+.leftsec .leftcontainer .cont2 .sidetext .star{
+    width:70%;
+    margin-left: 0px;
+    align-items: left;
+    margin-top: 10px;
+}
+ .sidepic1 .si1 {
+    width:8%;
+    height:10%;
+    margin-left: 65px;
+    margin-top: -15px;
+}
+.sidepic1 .si2 {
+    width:8%;
+    height:10%;
+    margin-left: 65px;
+    margin-top: -92px;
+}
+.sileftpic .sile{
+    width: 12%;
+    margin-left: 170px;
+    margin-top: 5px;
+}
+.footer .foot{
+    margin-left: 0px;
+    width:100%
+}
+.ridown .cont1{
+    border: 1.5px solid #ececec;
+box-sizing: border-box;
+border-radius: 21px;
+}
+.inptext .input h2:hover{
+    text-decoration: none;
+    cursor: pointer;
+   
+    color:grey;
+    
+}
+.ridown .cont1 .eve1 img:hover{
+    text-decoration: none;
+    cursor: pointer;
+   
+    color:grey;
+}
+.leftcontainer .cont2{
+    border: 1.5px solid #ececec;
+    box-sizing: border-box;
+    border-radius: 21px;
+   
+    
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 2px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
